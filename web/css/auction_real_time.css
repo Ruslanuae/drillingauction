@@ -1,0 +1,413 @@
+.real-catalog
+{
+	margin-top: 0;
+}
+.auction_head{
+	width: 100%;
+	background: #0d5db8;
+	min-height: 35px;
+	border-radius: 2px;
+	overflow: hidden;
+}
+	.auction_head>span{
+		color: #fff;
+	}
+	.auction_head_title{
+		display: inline-block;
+		padding: 12px 20px;
+	}
+.auction_head_title >a{
+
+	padding: 0!important;
+
+}
+	.auction_head_location{
+		display: inline-block;
+		padding: 12px 20px;
+		font-weight: bold;
+		font-size: 16px
+	}
+	.auction_head_left{
+		display: inline;
+		padding: 5px 20px;
+		float: right;
+		text-align: right;
+		font-size: 12px;
+	}
+	.auction_list_item{
+		font-size: 13px;
+		border: 1px solid #cccccc;
+		overflow: hidden;
+		padding: 5px;
+	}
+	.auction_list
+	{
+		margin-top: 30px;
+		max-height: 550px;
+		overflow: auto;
+	}
+.auction_list::-webkit-scrollbar {
+	width: 20px;
+}
+.pd-vehicle-info-wrapper{
+	margin-top: 50px;
+}
+
+/* Track */
+.auction_list::-webkit-scrollbar-track {
+	/*box-shadow: inset 0 0 1px #a4ccf9;*/
+	border-radius: 5px;
+}
+/* Handle */
+.auction_list::-webkit-scrollbar-thumb {
+	background: #0d5db8;
+	/*border-radius: 10px;*/
+}
+.auction_list::-webkit-scrollbar-thumb:hover {
+	background: #a4ccf9;
+}
+	.item_active{
+		background: #a4ccf9;
+	}
+		.auction_list_item p{
+			margin: 0;
+		}
+		.auction_list_item span{
+			font-weight: bold;
+		}
+		.auction_list_right{
+			float: right;
+		}
+	.auction_list_item_img{
+		width: 80px;
+		height: 80px;
+		display: table-cell;
+	    vertical-align: middle;
+	    text-align: center;
+	    margin-right: 5px;
+	}
+	.auction_list_item_img>img{
+		max-height: 100%;
+	    max-width: 100%;
+	    width: auto;
+	    height: auto;
+	    margin: auto
+	}
+.auction_lot_d{
+	display: none;
+	
+}
+.detail_active
+{
+	display: block;
+}
+
+.auction_lot_detail_head{
+	background: #efefef;
+	padding: 5px;
+	overflow: hidden;
+	border-bottom: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+}
+	.auction_lot_detail_head > p{
+		margin: 0;
+	}
+	.auction_lot_detail_head > .auction_lot_detail_title{
+		font-size: 18px;
+		font-weight: bold;
+	}
+	.auction_lot_detail_head > .auction_lot_detail_type{
+		float: right;
+	}
+.auction_lot_detail{
+	padding: 0 15px;
+
+}
+
+.auction_lot_detail  p{
+	margin: 0;
+	padding: 5px 0;
+}
+.col-5 {
+    width: 41.66666667%;
+}
+.col-7 {
+    width: 58.33333333%;
+}
+.col-value {
+    padding: 0 0 0 8px;
+    font-weight: 400;
+}
+.flex{
+	display: flex;
+}
+.auction_bid_timer{
+	min-height: 100px;
+	position: relative;
+	width: 150px;
+	float: left;
+	margin-left:33px;
+}
+.user_click{
+	min-height: 150px;
+	position: relative;
+	width: 318px;
+	float: right;
+	margin-right:50px;
+	text-align: center;
+}
+#bid_type
+{
+	display: block;
+	font-size: 25px;
+	font-weight: bold;
+	color: #0d5db8;
+	margin-top: 20px;
+}
+#user_country
+{
+}
+#user_name
+{
+	font-size: 25px;
+}
+#user_bid
+{
+	display: block;
+	font-size: 25px;
+	font-weight: bold;
+	color: #00CC00;
+}
+.timer-img{
+	width: 123px;
+	height: 123px;
+	position: absolute;
+	left: 13px;
+	top: 13px;
+	z-index: 2;
+}
+.img-coming
+{
+	width: 100%;
+}
+.auction_bid{
+	min-height: 100px;
+	text-align: center;
+	padding: 5px 15px;
+}
+.auction_bid a{
+	color: #ffffff;
+	text-decoration:none;
+	display: inline !important;
+	padding: 0 !important;
+}
+.singIn_title{
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 2px;
+}
+.signIn_btn, .reg_btn{
+	background-color: #0d5db8;
+	font-size: 1.2em;
+    margin: 0;
+    margin-top: 2px;
+    margin-right: 1px;
+    border: 0;
+    padding: 7px;
+    color: white;
+    min-width: 145px;
+    height: 28px;
+    border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    line-height: 1;
+}
+.count-button{
+	display: inline-block;
+	height: 25px;
+	width: 35px;
+	background: #0d5db8;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 17px;
+	font-weight: bold
+}
+.bid-button{
+	display: block;
+	margin: 5px;
+	height: 25px;
+	background: #0d5db8;
+	border: none;
+	border-radius: 3px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 82%;
+	color: #fff
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+/*****************TIMER*********************************/
+.time_circles {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.time_circles > div {
+	position: absolute;
+	text-align: center;
+}
+.time_circles > div > h4 {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Century Gothic', Arial;
+	line-height: 1;
+}
+.time_circles > div > span {
+	margin: 0;
+	padding: 0;
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-family: 'Century Gothic', Arial;
+	line-height: 1;
+	font-weight: bold;
+}
+/*****************END: TIMER*********************************/
+
+/*****************SLIDER IMAGES*********************************/
+
+.auction_images
+{
+}
+.img-container{
+	width: 530px;
+	height: 530px;
+}
+.lot-img{
+	width: 530px;
+	height: 530px;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	display: none;
+}
+.image-active
+{
+	display: table-cell;
+}
+	.lot-img>img{
+		max-height: 100%;
+		max-width:100%;
+		height: auto;
+		width: auto;
+		display: none;
+		padding: 0 5px;
+}
+.lot-img>img.active{
+	display: block;
+
+}
+.img_slide
+{
+	height: 80px;
+	margin-top: 5px;
+	display: block;
+	overflow: hidden;
+	max-width:100%;
+	position: relative;
+	z-index: 10;
+}
+.img_slide span
+{
+	display: block;
+	position:absolute;
+	z-index: 1000;
+	text-align: center;
+	font-size: 30px;
+	width: 35px;
+	line-height: 80px;
+	color: #0d5db8;
+	background: #ffffff77;
+	-webkit-transition: background .25s ease-out;
+	-o-transition: background .25s ease-out;
+	transition: background .25s ease-out;
+}
+
+.img_slide span:hover
+{
+	background: #ffffffaa;
+	color: #0d5db8;
+}
+.img_slide .left
+{
+	left: 0;
+}
+.img_slide .right
+{
+	right: 0;
+}
+.slide-img-container
+{
+
+}
+.img-pagination
+{
+	position: absolute;
+	overflow: hidden;
+	list-style: none;
+	text-align: center;
+	padding: 0px;
+	display: flex;
+	-webkit-transition-property: left;
+	-moz-transition-property: left;
+	-o-transition-property: left;
+	transition-property: left;
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	transition-duration: 1s;
+
+
+}
+.img-pagination > li{
+	display: none;
+}
+.ul_active{
+	display: block!important;
+}
+.img-pagination > li > a
+{
+	display: block;
+	position: relative;
+	width: 112.5px;
+	height: 80px;
+	padding: 0!important;
+	background: none!important;
+
+}
+
+.img-pagination > li > a > img
+{
+	width: 100%;
+	height: 80px;
+	object-fit: cover;
+	margin: auto;
+}
+
+/*****************END: SLIDER IMAGES*********************************/

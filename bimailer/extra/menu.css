@@ -1,0 +1,169 @@
+table.heades{
+	text-shadow:none;
+	width:100%;
+	color:#232323;
+	font-size:9px;
+}
+.heades strong{
+	font-size:15px;
+}
+.heades a{color:#FFF;}
+.heades a:hover{color:#ffb400;}
+.heades a span{color:#839fb0;}
+.heades a:hover span{color:#9b8856;}
+.heades li{display:inline-block; list-style:none; line-height:10px; margin-right:40px;}
+.heades ul{margin-left:0px;}
+.heades li .icon{
+	margin-left:-26px;
+	margin-top:-6px;
+	background-image:url(/bimailer/images/icons.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+	position:absolute;
+	width:28px;
+	height:28px;}
+
+.heades li .a01{background-position:0px -337px;}
+.heades a:hover .a01{background-position:-30px -337px;}
+.heades li .a02{background-position:0px -273px;}
+.heades a:hover .a02{background-position:-30px -273px;}
+.heades li .a03{background-position:0px -431px;}
+.heades a:hover .a03{background-position:-30px -431px;}
+.heades li .a04{background-position:0px -457px;}
+.heades a:hover .a04{background-position:-30px -457px;}
+.heades li .a05{background-position:0px -177px;}
+.heades a:hover .a05{background-position:-30px -177px;}
+.heades li .a06{background-position:0px -484px;}
+.heades a:hover .a06{background-position:-30px -484px;}
+
+.busLog{ /* Input Логин'а */
+	background-image:url(/bimailer/images/login/inLog.png);
+}
+.busPass{ /* Input Пароля */
+	background-image:url(/bimailer/images/login/inPas.png);
+}
+.inLog{ /* Input Логина и пароля */
+	color:#989898;
+	background-repeat:no-repeat;
+	border:none;
+	background-position:0px 0px;
+	width:177px;
+	height:32px;
+	padding-left:40px;
+	padding-right:5px;
+}
+
+.inLog:hover{ /* Стиль поля логина и паролья при наведении */
+	background-position:0px -34px;	
+}
+.butG{
+background-color:#439228;
+border:1px #39861f solid;
+color: #fff;
+cursor: pointer;
+font-size: 14px;
+height: 33px;
+padding-bottom: 1px;
+padding-left: 17px;
+padding-right: 17px;
+padding-top: 1px;
+outline:none;
+}
+.butG:hover{background-color:#57a43c;}
+.butR{
+background-color:#9f1d16;
+border:1px #92012d solid;
+color: #fff;
+cursor: pointer;
+font-size: 14px;
+height: 33px;
+padding-bottom: 1px;
+padding-left: 17px;
+padding-right: 17px;
+padding-top: 1px;
+outline:none;
+}
+.butR:hover{background-color:#b22922;}
+#exit{cursor:pointer;}
+#exit:hover{color:#000;}
+.messes{/*Если есть сообщения для пользвоателя*/
+	position:absolute;
+	margin-top:-11px;
+	margin-left:3px;
+	padding:2px 6px;
+	cursor:pointer;
+	color:#FFF;
+	border:3px solid #FFF;
+	border-radius:20px;
+	border-bottom-left-radius:3px;
+	background:#ff0356;
+	text-shadow:none;
+}
+#str a{
+	text-decoration:none;
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left:6px;
+	padding-right:6px;
+	border:solid 1px #afafaf;
+	font-size:11px;
+	background-color:#FFF;
+	color:#7e7e7e;
+	margin-left:1px;
+}
+/*Слайдер*/
+.viewport{
+	text-align:justify;
+    width: 600px;
+    height: 120px;
+    overflow: hidden;
+    position: relative;
+	background: #fff;
+	font-size:12px;
+}
+.slidewrapper{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 120px;
+    margin: 0;
+    padding: 0;    
+}
+.viewport li{
+    width: 600px;
+    height: 120px;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.viewport h3{
+	margin-bottom:5px;
+	font-size:14px;
+	line-height:0px;
+	text-align:left;
+	color:#445f88;	
+}
+.viewport p{padding:5px 10px 0px 10px; line-height:15px;}
+.viewport .slideline{
+	-moz-user-select: none;
+  -o-user-select:none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+   user-select: none;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	background:url(/bimailer/images/menu.jpg);
+	color:#fff; 
+	height:20px;
+	text-shadow:none;
+	text-align:center;
+	padding-top:6px;
+}
+.viewport .next{cursor:pointer;}
+.viewport span:hover{color:#ca6002;}
+.viewport .slideline span:not(.next){border:1px solid #fff; border-radius:15px; padding:0px 5px 0px 4px; margin:0px 7px 0px 7px; cursor:pointer;}
+.viewport .slideline span:not(.next):hover{border:1px solid #ca6002; color:#ca6002;}
+.viewport .vibran{color:#6d8fc3; border:1px solid #6d8fc3 !important;}

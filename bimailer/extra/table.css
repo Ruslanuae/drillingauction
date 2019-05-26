@@ -1,0 +1,66 @@
+.modal{
+	background:#fcfcfc;
+	border:1px #d7d7d7 solid;
+	box-shadow: 0 0 5px rgba(222, 222, 222, 0.8);
+	margin-bottom:10px;
+	text-shadow: 1px 1px 1px #FFF;
+	width: 100%;
+}
+.modal th{
+	background:url('/bimailer/images/tab_TH.png') repeat-x;
+	height:47px;
+	font-weight:normal;
+	font-size:14px;
+	text-align:center;
+}
+.modal td{
+	padding:0px;
+	height:24px;
+}
+.modal img{cursor:pointer;}
+
+#addrow input{
+	font-family:inherit;
+	width:calc(100% - 5px);
+	border:1px solid #999;
+	height:100%;
+}
+#adsp{ /*Кнопка действий в таблице*/
+	background:url(/bimailer/images/box_green.jpg);
+	text-align:center;
+	color:#fff;
+	font-size:14px;
+	height: 20px;
+	box-shadow: inset 0 0 10px rgba(255,255,255,0);
+	text-shadow: 0px 0px 5px rgba(255,255,255,0);
+	transition: box-shadow 0.3s, text-shadow 0.3s;
+	cursor: pointer !important;
+}
+.orng{background:url(/bimailer/images/box_orange.jpg) !important;}
+.gren{background:url(/bimailer/images/box_green.jpg) !important;}
+.gray{background:url(/bimailer/images/box_gray.jpg) !important;}
+.blue{background:url(/bimailer/images/box_blue.jpg) !important;}
+#adsp:hover{
+	box-shadow: inset 0 0 10px rgba(255,255,255,0.5);
+	transition: box-shadow 0.3s, text-shadow 0.3s;
+	text-shadow: 0px 0px 5px rgba(255,255,255,1);
+}
+.modal tr:nth-child(2n+1):not(:first-child){background-color:rgba(245,245,245,1.00);}
+#ediy{
+	width:99%;
+	height:calc(100%-2px);
+	/*font-size:!important;*/
+	/*font-weight:!important;*/
+	padding:0px;
+	margin:0px;
+	/*font:!important;*/
+	z-index:99;
+	border:1px dashed #999;}
+
+#ediy{font-size:14px;}
+/*ыапуер*/
+.modal .select{background-color:rgba(215,242,254,0.80);}
+.modal .select:nth-child(2n+1):not(:first-child){background-color:rgba(208,238,252,0.80);}
+.error.select{background-color:rgba(254,215,215,0.60) !important;}
+.error.select:nth-child(2n+1):not(:first-child){background-color:rgba(245,202,202,0.60) !important;}
+

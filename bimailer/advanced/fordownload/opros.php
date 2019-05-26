@@ -1,0 +1,1 @@
+<?php ini_set('session.use_cookies', 0); session_id('downbase'); session_name('upload');session_start();$p=substr($_POST['psev'], 0, 6);echo isset($_SESSION[$p])?$_SESSION[$p]:'false';

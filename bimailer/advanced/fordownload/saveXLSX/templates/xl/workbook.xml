@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">
+  <fileVersion appName="Calc">
+  </fileVersion>
+  <workbookPr backupFile="false" showObjects="all" date1904="false">
+  </workbookPr>
+  <workbookProtection>
+  </workbookProtection>
+  <bookViews>
+    <workbookView activeTab="0" firstSheet="0" showHorizontalScroll="true" showSheetTabs="true" showVerticalScroll="true" tabRatio="600" windowHeight="8192" windowWidth="16384" xWindow="0" yWindow="0">
+    </workbookView>
+  </bookViews>
+  <sheets>
+    {SHEETS}
+  </sheets>
+  <calcPr iterateCount="100" refMode="A1" iterate="false" iterateDelta="0.001">
+  </calcPr>
+</workbook>

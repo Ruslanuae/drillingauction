@@ -1,0 +1,137 @@
+.sidebar-wrapper .nav > li >.treeview-menu {
+    background: #ffffff;
+    margin: 0 15px;
+    padding: 10px 0;
+}
+.sidebar-wrapper .nav > li >.treeview-menu a {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 5px 5px 15px;
+}
+.sidebar-wrapper .active > .treeview-menu {
+    display: block;
+}
+.treeview-menu {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 5px;
+}
+.sidebar .nav li .dropdown-menu .dropdown-item {
+    white-space: pre-wrap;
+}
+.table .btn {
+    padding: 5px;
+}
+.btn-transparent {
+    background-color: #ffffff;
+    border: #ffffff;
+    box-shadow: 0 2px 2px 0 rgba(255, 255, 255, 0.14), 0 3px 1px -2px rgba(255, 255, 255, 0.2), 0 1px 5px 0 rgba(255, 255, 255, 0.12);
+    color: #3C4858!important;
+}
+.btn-transparent:hover {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+.btn-transparent:active {
+    background-color: rgba(255, 255, 255, 0.50)!important;
+}
+.breadcrumb {
+    background-color: transparent;
+}
+.breadcrumb > li + li:before {
+    content: "/";
+    padding: 0 5px;
+}
+.breadcrumb > li, .breadcrumb > li > a,
+.sidebar .nav p {
+    font-size: 16px;
+    font-weight: 400;
+}
+.card-title, .table th, .table td {
+    font-size: 16px!important;
+    font-weight: 400!important;
+}
+.pagination li a, .pagination li span {
+    border: 0;
+    border-radius: 30px!important;
+    transition: all .3s;
+    padding: 0 11px;
+    margin: 0 3px;
+    min-width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #999;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: transparent;
+    text-align: center;
+    position: relative;
+    display: block;
+}
+.pagination li a:focus, .pagination li.active a {
+    z-index: 2;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(33,150,243,.25);
+}
+.form-group .help-block {
+    color: #ff0000;
+}
+.import-mail {
+    margin-top: 0;
+}
+.container-fluid {
+    padding-right: 10px;
+    padding-left: 60px;
+}
+.sidebar {
+    width: 310px;
+}
+.sidebar .sidebar-wrapper {
+    width: 310px;
+}
+.btn {
+    font-size: 14px;
+    font-weight: 500;
+}
+form label {
+    font-size: 16px!important;
+    font-weight: 500!important;
+}
+.form-control {
+    height: 46px!important;
+    font-size: 16px!important;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link {
+    font-size: 16px!important;
+}
+.dropdown-menu .dropdown-item, .dropdown-menu li > a {
+    font-size: 14px!important;
+}
+/**
+* Style media
+*/
+@media (max-width: 767.98px) {
+    .navbar .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .content .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .navbar-toggler {
+        margin-top: -15px;
+    }
+    .main-panel>.content {
+        margin-top: 40px;
+    }
+    .breadcrumb {
+        max-width: 290px;
+    }
+    .import-mail {
+        margin-top: 10px;
+    }
+}

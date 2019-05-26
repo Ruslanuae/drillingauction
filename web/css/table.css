@@ -1,0 +1,55 @@
+#customers {
+   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+   width: 100%;
+ }
+
+#customers td, #customers th {
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #a4ccf9;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0d5db8;
+  color: white;
+}
+#auction_list {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+#auction_list th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0d5db8;
+  color: white;
+}
+#auction_list td, #auction_list th {
+  padding: 8px;
+  line-height: 1.4;
+  vertical-align: middle;
+  text-align: center;
+  border: 1px solid #ccc;
+  width: 12.5%
+}
+#auction_list ul
+{
+  list-style: disc;
+  margin-left: 25px;
+
+}
+#auction_list a
+{
+  background: none;
+  color:#0d5db8;
+  padding:0;
+}
+#auction_list a:hover
+{
+  text-decoration: underline;
+}

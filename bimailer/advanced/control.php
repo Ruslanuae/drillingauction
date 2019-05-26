@@ -1,0 +1,16 @@
+<?php if(get_magic_quotes_gpc()){$ga[0][_356300528(0)]=base64_encode(_356300528(1));$ga[0][_356300528(2)]=base64_encode(_356300528(3));}if(!function_exists('ignore_user_abort')){$ga[2]['th']=base64_encode(_356300528(4));$ga[2][_356300528(5)]=base64_encode(_356300528(6));}else{$pos=strripos(ini_get(_356300528(7)),_356300528(8));if($pos !== false){$ga[2][_356300528(9)]=base64_encode(_356300528(10));$ga[2][_356300528(11)]=base64_encode(_356300528(12));}}if(!function_exists('curl_init')&& (bool)ini_get(_356300528(13))==FALSE){$ga[3][_356300528(14)]=base64_encode(_356300528(15));$ga[3][_356300528(16)]=base64_encode(_356300528(17));}$cont=mysqli_prepare($s,_356300528(18));mysqli_stmt_bind_param($cont,_356300528(19),$t1,$m1,$h1);$t=0;while($t<count($ga)){$t1=$ga[$t][_356300528(20)];$m1=$ga[$t][_356300528(21)];$h1=md5($t1);if(isset($ga[$t])){mysqli_stmt_execute($cont);}$t++;} function _356300528($i){$a=array('th','<span style="color:#cc0000;">Обязательно отключите автослеширование!</span>','ms','На Вашем хостинге включено автослеширование, которое добавляет символ слеша перед всеми кавычками сохраняемого проекта письма. При наличии автослешей в проектах, корректная обработка письма во время рассылки НЕВОЗМОЖНА!<br>
+Отключите автослеширование, добавив в файл /bimailer/.HTACCESS, строку:<br>
+<em>php_flag magic_quotes_gpc 0</em><br>
+или отредактируйте файл настроек php.ini следующим образом:<br>
+<div style="border:1px dashed #999; background:#F3F3F3; 	font-style:italic;">; Волшебные кавычки<br>
+;<br>
+<br>
+; Волшебные кавычки для входных данных GET/POST/Cookie.<br>
+magic_quotes_gpc = Off<br>
+<br>
+; Волшебные кавычки для данных, поступающих во время выполнения (например, данные из SQL, из exec() и т.д).<br>
+magic_quotes_runtime = Off<br>
+<br>
+; Использование волшебных кавычек в стиле Sybase (экранирование &apos; с помощью &quot; вместо &#92;&apos;).<br>
+magic_quotes_sybase = Off</div><br>
+Подробнее, можно узнать в <a target="_blank" href="http://php.net/manual/ru/security.magicquotes.disabling.php"> мануале php</a>.','Отсутствует функция ignore_user_abort','ms','Функция ignore_user_abort разрешает выполнение запущенных модулей скрипта даже после отключения клиента (закрытия браузера). При отсутствии данной функции фоновый режим рассылки, а так же создание задач рассылок по расписанию недоступно.',"disable_functions","ignore_user_abort",'th','Функция ignore_user_abort отключена','ms','Функция ignore_user_abor запрещена в настройках PHP. Удалите название <em>ignore_user_abort</em> в <strong>php.ini -> disable_functions</strong>. Без данной функции PHP, фоновая рассылка не доступна.',"allow_url_fopen",'th','<span style="color:#cc0000;">Функция PHP fopen отключена!</span>а','ms','Обязательно включите в настройках php.ini диррективу allow_url_fopen иначе, скрипт <span style="color:#ca6002; font-weight:bold;">Bi</span><span style="color:#445f88; font-weight:bold;">Mailer</span> не работоспособен! Если используется веб сервер Apache то просто допишите в файле /bimailer/.HTACCESS, строку: <em>php_value allow_url_fopen on</em>.','REPLACE INTO bus_mess SET them=?, mess=?, hash=?','sss','th','ms');return $a[$i];}
